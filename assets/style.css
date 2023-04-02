@@ -1,17 +1,65 @@
-.photo {
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing:border-box;
+}
 
-    background-image: url("https://aviewfrommyseat.com/photos/anonymous-20210423173302.jpg");
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
+.hero {
+    height:100vh;
+    width:100%;
+    background-image: url(./IMG_2288.jpeg);
     background-size: cover;
     background-position: center;
+    
+}
+
+nav {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-left: 12%;
+    padding-right: 12%;
+    
+}
+
+a {
+    color:aquamarine;
+}
+
+.name {
+    color:rgb(224, 231, 18);
+    font-size: 60px;
+    
+}
+
+nav ul li {
+    display:flex;
+    display:inline-block;
+    justify-content: space-evenly;
+    font-size:20px;
+    font: bold;
+    font-weight: 650;
+    
+    
+    
+}
+
+
+/* .page-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+}
+
+header p {
+    display:flex;
+    justify-content: center;
+    background-color: blueviolet;
 }
 
 body {
-    background-image: url("https://aviewfrommyseat.com/photos/anonymous-20210423173302.jpg");
-}
-
-h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
