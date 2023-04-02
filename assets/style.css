@@ -58,20 +58,25 @@ nav ul li {
     box-shadow: 20px,20px,15px, #aaaaaa;
     margin:20px;
     background-color:aquamarine;
-    align-content: end;
+    
+    display: grid;
+    grid-template-columns:auto;
+    grid-gap: 20px;
 }
 
 .meat header {
     border-radius:100px 100px 0px 0px;
     font-size: 25px;
     font-weight:bolder;
+    
 }
 
-aside {
+.aside {
     background-color:aquamarine;
-    text-align: left;
-    padding: 80px;
+    padding: 50px;
     flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -97,3 +102,6 @@ header p {
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 } */
+
+
+
