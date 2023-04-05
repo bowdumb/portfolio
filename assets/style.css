@@ -1,151 +1,3 @@
-/* * {
-    padding: 0;
-    margin: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    box-sizing:border-box;
-}
-
-.hero {
-    height:100vh;
-    width:100%;
-    background-image: url(./IMG_2288.jpeg);
-    background-size: cover;
-    background-position: center;
-    
-}
-
-nav {
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    padding-top: 55px;
-    padding-left: 12%;
-    padding-right: 12%;
-    width:100%;
-    background: rgb(145, 114, 114);  
-}
-
-a {
-    color:rgb(8, 49, 112);
-}
-
-.name {
-    color:rgb(224, 231, 18);
-    font-size: 60px;
-    
-}
-
-body {
-    background: rgb(145, 114, 114);
-}
-
-nav ul li {
-    display:flex;
-    display:inline-block;
-    justify-content: space-evenly;
-    font-size:20px;
-    font: bold;
-    font-weight: 650;
-}
-
-.meat {
-    border-style:double;
-    border-width: 10px;
-    border-radius: 50px;
-    padding: 100px;
-    transform: rotate(8 deg);
-    margin:15px;
-    background-color:aquamarine;
-    float: left;
-}
-
-.meat header {
-    border-radius:100px 100px 0px 0px;
-    font-size: 25px;
-    font-weight:bolder;
-    
-}
-
-.aside {
-    background-color:aquamarine;
-    padding: 50px;
-    flex: 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-.boxes {
-    align-items: end;
-    
-}
-
-
-
-
-.meat {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
-
-.about {
-    border-style:double;
-    border-width: 10px;
-    border-radius: 50px;
-    padding: 100px;
-    transform: rotate(8 deg);
-    margin:15px;
-    background-color:aquamarine;
-    float: left;
-}
-
-.skills {
-    border-style:double;
-    border-width: 10px;
-    border-radius: 50px;
-    padding: 100px;
-    transform: rotate(8 deg);
- 
-    margin:15px;
-    background-color:aquamarine;
-    float: left;
-}
-
-.projects {
-    border-style:double;
-    border-width: 10px;
-    border-radius: 50px;
-    padding: 100px;
-    transform: rotate(8 deg);
-    margin:15px;
-    background-color:aquamarine;
-    float: left;
-    background-image: url("https://assets.goaaa.com/image/upload/c_fill,g_auto,w_1170,h_593,q_auto:best/v1647565614/singularity-migrated-images/redwood-national-state-parks-california-where-see-redwoods-via-magazine-shutterstock_1433267651.jpg.jpg")
-}
-
-.projects header {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: px;
-    color: yellow;
-}
-
-.projects p {
-    color:aqua;
-    font-size: x-large;
-}
-
-.resume {
-    border-style:double;
-    border-width: 10px;
-    border-radius: 50px;
-    padding: 100px;
-    transform: rotate(8 deg);
-    margin:15px;
-    background-color:aquamarine;
-    float: left;
-} */
-
 * {
     padding: 0;
     margin: 0;
@@ -196,23 +48,79 @@ nav ul li {
     font-weight: 650;
 }
 
-.meat {
+#about {
     border-style:double;
     border-width: 10px;
     border-radius: 50px;
     padding: 100px;
-    /* flex: 0 0 300px; */
     transform: rotate(8 deg);
     box-shadow: 20px,20px,15px, #aaaaaa;
     margin:20px;
     background-color:aquamarine;
-    
     display: grid;
     grid-template-columns:auto;
     grid-gap: 20px;
 }
 
-.meat header {
+#skills {
+    border-style:double;
+    border-width: 10px;
+    border-radius: 50px;
+    padding: 100px;
+    transform: rotate(8 deg);
+    box-shadow: 20px,20px,15px, #aaaaaa;
+    margin:20px;
+    background-color:aquamarine;
+    display: grid;
+    grid-template-columns:auto;
+    grid-gap: 20px;
+    width: 70%;
+}
+
+#projects {
+    border-style:double;
+    border-width: 10px;
+    border-radius: 50px;
+    padding: 100px;
+    transform: rotate(8 deg);
+    box-shadow: 20px,20px,15px, #aaaaaa;
+    margin:20px;
+    background-color:aquamarine;
+    display: grid;
+    grid-template-columns:auto;
+    grid-gap: 20px;
+    width: 55%;
+
+    
+}
+
+#resume {
+    border-style:double;
+    border-width: 10px;
+    border-radius: 50px;
+    padding: 100px;
+    margin:20px;
+    background-color:aquamarine;
+    display: grid;
+    grid-template-columns:auto;
+    grid-gap: 20px;
+    width: 40%;
+}
+
+#contact {
+    border-style:double;
+    border-width: 10px;
+    border-radius: 50px;
+    padding: 100px;
+    margin:20px;
+    background-color:aquamarine;
+    display: grid;
+    grid-template-columns:auto;
+    grid-gap: 20px;
+    width: 35%;
+}
+
+.boxes header {
     border-radius:100px 100px 0px 0px;
     font-size: 25px;
     font-weight:bolder;
@@ -230,5 +138,5 @@ nav ul li {
 
 .boxes {
     align-items: end;
-    
+    font-size: 25px;
 }
