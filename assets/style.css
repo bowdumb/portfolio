@@ -127,13 +127,6 @@ nav ul li {
     
 }
 
-.aside {
-    background-color:aquamarine;
-    padding: 50px;
-    flex: 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 
 .boxes {
