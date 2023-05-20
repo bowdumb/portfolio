@@ -7,4 +7,6 @@ Users can engage with this application to learn more about the author, view prev
 # Maintenance and Contribution
 This application is maintained and contribed to solely by Josh Claxton (https://github.com/claxCode) and will be updated as their skillset grows and there is more content to contribute. Stay tuned!
 
+
+
 ![Representative screenshot](/assets/127.0.0.1_5501_index.html.png?raw=true "Screenshot of portfolio page")
